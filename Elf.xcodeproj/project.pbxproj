@@ -12,6 +12,7 @@
 		AD20780C21FC48DB00CEF3B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD20780A21FC48DB00CEF3B6 /* Main.storyboard */; };
 		AD20780E21FC48DD00CEF3B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD20780D21FC48DD00CEF3B6 /* Assets.xcassets */; };
 		AD20781121FC48DD00CEF3B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD20780F21FC48DD00CEF3B6 /* LaunchScreen.storyboard */; };
+		AD20781A21FC496300CEF3B6 /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20781921FC496300CEF3B6 /* Redux.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AD20780D21FC48DD00CEF3B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD20781021FC48DD00CEF3B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD20781221FC48DD00CEF3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD20781921FC496300CEF3B6 /* Redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redux.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		AD20780521FC48DB00CEF3B6 /* Elf */ = {
 			isa = PBXGroup;
 			children = (
+				AD20781821FC494200CEF3B6 /* protocols */,
 				AD20780621FC48DB00CEF3B6 /* AppDelegate.swift */,
 				AD20780821FC48DB00CEF3B6 /* ViewController.swift */,
 				AD20780A21FC48DB00CEF3B6 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				AD20781221FC48DD00CEF3B6 /* Info.plist */,
 			);
 			path = Elf;
+			sourceTree = "<group>";
+		};
+		AD20781821FC494200CEF3B6 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AD20781921FC496300CEF3B6 /* Redux.swift */,
+			);
+			path = protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				AD20780921FC48DB00CEF3B6 /* ViewController.swift in Sources */,
 				AD20780721FC48DB00CEF3B6 /* AppDelegate.swift in Sources */,
+				AD20781A21FC496300CEF3B6 /* Redux.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +294,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Elf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +304,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = silvermoon.Elf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +314,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Elf/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +324,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = silvermoon.Elf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
