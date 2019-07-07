@@ -5,6 +5,22 @@ Spiritual successor of Elm
 ![does NOT own the copyright, use some image from google](hqdefault.jpg)
 
 
+# A quick update after SwiftUI
+
+People think I'm insane when I try to use Redux.
+
+## SwiftUI is React-like
+
+So guess what!!!!!! Experience of POP Redux would come in handy right now!!!!!
+
+## I hate being right, being ahead of time
+
+But i'm glad I'm not the only one cursed with knowledge.
+
+## Now guess who has Redux implementation experience custom made for iOS Swift?
+
+I have some insanely cool idea cooking right now, TBD.
+
 ## There is ReSwift
 
 But I find it cubersome to work with. 
