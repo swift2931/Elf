@@ -2,24 +2,19 @@
 Spiritual successor of Elm
 
 
-![does NOT own the copyright, use some image from google](hqdefault.jpg)
+![wow](hqdefault.jpg)
 
+## Stronger than ever with SwiftUI
+Same concepts carry over for reference type.
 
-# A quick update after SwiftUI
+However SwiftUI use struct to conform to View, which needs some work.
 
-People think I'm insane when I try to use Redux.
+By adding a model type as Redux store (did not require store before), we can have an elegant Elm-Flow.
 
-## SwiftUI is React-like
+[Elf](https://gist.github.com/jimlai586/6c9fb7fb828777a50860be2b9ae05fe0)
 
-So guess what!!!!!! Experience of POP Redux would come in handy right now!!!!!
+Actions and effects are still present, with effects being a sink.
 
-## I hate being right, being ahead of time
-
-But i'm glad I'm not the only one cursed with knowledge.
-
-## Now guess who has Redux implementation experience custom made for iOS Swift?
-
-I have some insanely cool idea cooking right now, TBD.
 
 ## There is ReSwift
 
@@ -31,7 +26,7 @@ not to mention specs are chaning all the time. Also the number of states increas
 
 My approach is to use per-view-controller store without explicit states.
 
-**Instead track actions.**
+**should track actions.**
 
 
 ## There is RxSwift
